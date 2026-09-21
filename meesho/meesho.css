@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.body {
+    width: 100px;
+    /* height: auto; */
+    background: rgb(195, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    /* background: red; */
+    border: 1px solid rgb(241, 236, 236);
+}
+
+.right-section {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo h1 {
+    width: 156px;
+    height: 72px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #4B0C32;
+    /* background: burlywood; */
+}
+
+.search input {
+    width: 600px;
+    height: 45px;
+    border-radius: 12px;
+}
+
+.left-section {
+    width: 392px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 92px;
+    /* background: chartreuse; */
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 18px;
+}
+
+.right-section .left-section span {}
+
+
+.item {
+    width: 1297.6px;
+    height: 52px;
+    margin-left: 7.5%;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    /* background: rgb(135, 222, 155); */
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+.poster {}
+
+.poster img {
+    width: 100%;
+    height: 445px;
+}
+
+.section{
+    width: 100%;
+    height: 70.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    background: #F7E9FF;
+}
+
+.section-mid{
+    width: 90%;
+    height: 46.6px;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.section-mid a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.categories-box{
+    width: 100%;
+    height: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+
+.categories-section{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.categories-section a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5% 0% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.categories-section img{
+    margin-bottom: 9px;
+}
+
+
+.img-box img{
+    width: 100%;
+    height: 529.85;
+}
